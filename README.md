@@ -11,6 +11,6 @@ Example with Actions:
         ports:
           - 5432:5432
         env:
-          REMOTE_USER: ${{ secrets.DEPLOY_USER }}
-          REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
-          REMOTE_KEY: ${{ secrets.DEPLOY_KEY }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_KEY: ${{ secrets.REMOTE_KEY }}
