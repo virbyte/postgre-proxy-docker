@@ -14,3 +14,5 @@ Example with Actions:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_KEY: ${{ secrets.REMOTE_KEY }}
+
+This will allow the action to connect to postgre at localhost:5432
